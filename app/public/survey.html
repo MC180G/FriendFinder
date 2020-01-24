@@ -48,7 +48,7 @@
             <div class="panel-body">
 
                 <!-- Q1 -->
-                <h4><strong>Question 1</strong></h4>
+                <h4><strong>Statement 1</strong></h4>
                 <h5>Everyone deserves the same base level respect as I believe I deserve.</h5>
                 <select data-placeholder="" class="chosen-select" id="Q1">
                     <option value=""></option>
@@ -60,7 +60,7 @@
                 </select>
 
                 <!-- Q2 -->
-                <h4><strong>Question 2</strong></h4>
+                <h4><strong>Statement 2</strong></h4>
                 <h5>Mistakes are a valuable exposure of truth.</h5>
                 <select data-placeholder="" class="chosen-select" id="Q2">
                     <option value=""></option>
@@ -72,7 +72,7 @@
                 </select>
 
                 <!-- Q3 -->
-                <h4><strong>Question 3</strong></h4>
+                <h4><strong>Statement 3</strong></h4>
                 <h5>Music can occur at random, and doesn't always have to be conscious.</h5>
                 <select data-placeholder="" class="chosen-select" id="Q3">
                     <option value=""></option>
@@ -84,7 +84,7 @@
                 </select>
 
                 <!-- Q4 -->
-                <h4><strong>Question 4</strong></h4>
+                <h4><strong>Statement 4</strong></h4>
                 <h5>Art is what Artists do.</h5>
                 <select data-placeholder="" class="chosen-select" id="Q4">
                     <option value=""></option>
@@ -96,7 +96,7 @@
                 </select>
 
                 <!-- Q5 -->
-                <h4><strong>Question 5</strong></h4>
+                <h4><strong>Statement 5</strong></h4>
                 <h5>Music can occur at random, and doesn't always have to be conscious.</h5>
                 <select data-placeholder="" class="chosen-select" id="Q5">
                     <option value=""></option>
@@ -108,7 +108,7 @@
                 </select>
 
                 <!-- Q6 -->
-                <h4><strong>Question 6</strong></h4>
+                <h4><strong>Statement 6</strong></h4>
                 <h5>Do, or do not. But first, try.</h5>
                 <select data-placeholder="" class="chosen-select" id="Q6">
                     <option value=""></option>
@@ -120,7 +120,7 @@
                 </select>
 
                 <!-- Q7 -->
-                <h4><strong>Question 7</strong></h4>
+                <h4><strong>Statement 7</strong></h4>
                 <h5>DON'T PANIC!!</h5>
                 <select data-placeholder="" class="chosen-select" id="Q7">
                     <option value=""></option>
@@ -132,7 +132,7 @@
                 </select>
 
                 <!-- Q8 -->
-                <h4><strong>Question 8</strong></h4>
+                <h4><strong>Statement 8</strong></h4>
                 <h5>RUSH is the epitome of rock music.</h5>
                 <select data-placeholder="" class="chosen-select" id="Q8">
                     <option value=""></option>
@@ -144,7 +144,7 @@
                 </select>
 
                 <!-- Q9 -->
-                <h4><strong>Question 9</strong></h4>
+                <h4><strong>Statement 9</strong></h4>
                 <h5>Good and Bad are constructs that don't exsist outside the human experience.</h5>
                 <select data-placeholder="" class="chosen-select" id="Q9">
                     <option value=""></option>
@@ -156,7 +156,7 @@
                 </select>
 
                 <!-- Q10 -->
-                <h4><strong>Question 10</strong></h4>
+                <h4><strong>Statement 10</strong></h4>
                 <h5>Humour is a smooth path to enlightenment.</h5>
                 <select data-placeholder="" class="chosen-select" id="Q10">
                     <option value=""></option>
@@ -176,7 +176,7 @@
         </button>
         <br>
         <footer class="footer">
-            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/tomtom28/friendfinder"
+            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/mc180g/friendfinder"
                     target="_blank">GitHub Repo</a> | <a href="/">Home</a></p>
         </footer>
 
@@ -188,7 +188,7 @@
                     <!-- Close Button -->
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h2 class="modal-title"><strong>Meet Your New Friend!</strong></h2>
+                        <h2 class="modal-title"><strong>This is who you should be talking to.</strong></h2>
                     </div>
 
                     <div class="modal-body">
@@ -283,7 +283,7 @@
                 scoresArray.push(parseInt($(this).val()));
             });
 
-                .promise().done(function () {
+                $('div').promise().done(function () {
                     newFriend.scores = scoresArray;
 
                     var currentURL = window.location.origin;
@@ -295,7 +295,7 @@
 
                 });
 
-        }
+        };
 
     </script>
 

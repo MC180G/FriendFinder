@@ -1,18 +1,18 @@
 //*Data should look something like this:
 var friendsData = [
   {
-    name: "Tommy Thompson",
-    photo: "https://avatars1.githubusercontent.com/u/17932981?v=3&s=466",
+    name: "Robert Lopez",
+    photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz8GnF278WVpduhhURMAt9CUNMUuox2Y7N4xRYBKYFOFLc06Au&s",
     scores: [3, 4, 3, 3, 4, 4, 4, 1, 5, 3]
   },
   {
-    name: "Number 2",
-    photo:"https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/No_2_APTSWSM.jpg/200px-No_2_APTSWSM.jpg",
+    name: "Jack Black",
+    photo:"https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2018/09/19163137/Jack-Black-Countdown-Rep.jpg",
     scores: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   },
   {
-    name: "The One",
-    photo:"https://s-media-cache-ak0.pinimg.com/564x/dd/31/d2/dd31d2dd156204fcf9b6aa1c54455adb.jpg",
+    name: "Peter Griffin",
+    photo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJTRWijpYfPV-RgwZ5T-0tatZuWcUkfoXh2zm-aXRROqPHaXp9-w&s",
     scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   },
   {
@@ -21,8 +21,8 @@ var friendsData = [
     scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
   },
   {
-    name: "Dr. Evil",
-    photo:"https://at-cdn-s01.audiotool.com/2012/05/28/documents/ei368KjdlP5qy6gILDLtH9cEAf6H/0/cover256x256-b31436c2a9bc4645b1ad67bc09705cd7.jpg",
+    name: "Peter Serafinowicz",
+    photo:"https://m.media-amazon.com/images/M/MV5BMTQyNDU1MjcyNl5BMl5BanBnXkFtZTgwODc1OTQ0NDE@._V1_.jpg",
     scores: [5, 4, 4, 4, 4, 3, 2, 1, 5, 5]
   },
   {
@@ -34,6 +34,11 @@ var friendsData = [
     name: "Princess Leia",
     photo:"http://images.techtimes.com/data/images/full/168082/princess-leia-organa.jpg?w=600",
     scores: [5, 4, 5, 4, 5, 3, 3, 3, 2, 4]
+  },
+  {
+    name: "Carl Sagan",
+    photo:"https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2013/11/carlsagan1.jpg?w=680&ssl=1",
+    scores: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
   }
 ];
 
