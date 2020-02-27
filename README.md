@@ -8,4 +8,6 @@ In this activity, I've built a compatibility-based "FriendFinder" application --
 
 Please feel free to check out [under the hood](https://github.com/MC180G/FriendFinder) for all the magic!
 
+Node - FrontEnd
+Express - MiddleWare
 Heroku - BackEnd
