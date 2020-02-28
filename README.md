@@ -1,5 +1,5 @@
 # FriendFinder
-@Matt Colson
+**Author** Matt Colson
 
 https://frnd7fndr.herokuapp.com/survey
 
