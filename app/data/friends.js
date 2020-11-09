@@ -1,4 +1,3 @@
-//*Data should look something like this:
 var friendsData = [
   {
     name: "Robert Lopez",
